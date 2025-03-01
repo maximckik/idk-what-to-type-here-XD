@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 50px;
+    grid-auto-rows: 200px;
+    padding: 50px;
+}
+
+.main img {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    background-image: url("https://decider.com/wp-content/uploads/2024/12/SQUID-GAME-206-01.gif?w=640");
+    background-size: 100vw;
+    background-position: center;
+}
+.character{
+    display: flex;
+color: whitesmoke;
+text-shadow: 0 0 2px ;
+}
+.characte:hover {
+    
+}
+.main img:hover (
+
+)
